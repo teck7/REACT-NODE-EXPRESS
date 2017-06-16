@@ -7,8 +7,9 @@ export default function ProjectList ({
     return (
       <div>
         {
-          items.map((item) => (
-              <Project title={ item.title } />
+          items.map((item, index) => (
+              <Project key={ index }
+              title={ item.title } />
           ))
         }
       </div>

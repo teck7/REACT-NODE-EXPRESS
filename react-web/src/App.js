@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ProjectList from './components/ProjectList'
+//import <ProjectList> and {projects} from this file
 
 class App extends Component {
   state = {
