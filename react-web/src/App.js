@@ -32,7 +32,7 @@ class App extends Component {
     componentDidMount() {
       // Load projects from API
       //fetch('http://localhost:3000/projects') Or following
-      fetch('/projects')
+      fetch('/api/projects')
         // Parsing the JSON into Javascript objects
         .then(res => res.json())
         // Update our component's state with the loaded projects

@@ -4,8 +4,8 @@ const projectsRouter = require('./routes/projects')
 //Create our Express server
 const server = express()
 
-//Add routes
-server.use(projectsRouter)
+//Add routes (i.e. /api/project)
+server.use('/api', projectsRouter)
 
 //Start server
 const port = 8000
